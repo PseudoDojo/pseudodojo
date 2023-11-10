@@ -1,2 +1,2 @@
-# pseudodojo
-Python package to generate and validate pseudopotentials
+# Pseudo Dojo
+A python package to generate and validate pseudopotentials
