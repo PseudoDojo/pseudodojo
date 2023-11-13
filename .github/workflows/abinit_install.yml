@@ -11,6 +11,15 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Cache LibXC
+      uses: actions/cache@v3
+      with:
+        path: |
+          $HOME/libxc
+        key: libxc-4.3.4-${{ runner.os }}-${{ hashFiles('**/libxc-4.3.4.tar.gz') }}
+        restore-keys: |
+          libxc-4.3.4-${{ runner.os }}-
+
     - name: Install dependencies
       run: |
         sudo apt-get update
@@ -18,12 +27,14 @@ jobs:
 
     - name: Download and Compile LibXC
       run: |
-        wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
-        tar -xvf libxc-4.3.4.tar.gz
-        cd libxc-4.3.4
-        ./configure --prefix=$HOME/libxc
-        make
-        make install
+        if [ ! -d "$HOME/libxc" ]; then
+          wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
+          tar -xvf libxc-4.3.4.tar.gz
+          cd libxc-4.3.4
+          ./configure --prefix=$HOME/libxc
+          make
+          make install
+        fi
         echo "Listing contents of /home/runner/libxc:"
         ls /home/runner/libxc
         echo "Listing contents of /home/runner/libxc/lib:"
@@ -35,16 +46,6 @@ jobs:
         echo "Below steps don't seem to be working..."
         echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
-        # echo $GITHUB_ENV
-        # echo $LIBXC_DIR
-        # ls $LIBXC_DIR
-        # ls $LIBXC_DIR/lib
-        # ls $LD_LIBRARY_PATH
-        # ls $LD_LIBRARY_PATH/pseudodojo
-        # ls $LD_LIBRARY_PATH/libxc-4.3.4
-        # pwd
-        # ls $HOME/libxc-4.3.4/lib
-        # ls $HOME/libxc
 
     - name: Download and compile ABINIT
       run: |
