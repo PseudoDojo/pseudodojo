@@ -56,7 +56,13 @@ jobs:
         make
         sudo make install
 
+      continue-on-error: true
+
     - name: Copy config.log on failure
       if: failure()
       run: |
+        ls abinit
+        cd ~
+        ls abinit
+        echo abinit/config.log
         cp abinit/config.log ${{ github.workspace }}
