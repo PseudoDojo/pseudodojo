@@ -1,0 +1,25 @@
+name: Install ABINIT
+run-name: ${{ github.actor }} is installing abinit
+
+on:
+  workflow_run:
+    workflows: ["Install LibXC"]
+    types: 
+      - completed
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and Compile ONCVPSP
+        run: |
+          wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
+          tar -xvf oncvpsp-4.0.1.tar.gz
+          cd oncvpsp-4.0.1
+          echo "LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc" >> make.inc
+          echo "FFLAGS += -I/home/runner/libxc/include" >> make.inc
+          make
+          make install
