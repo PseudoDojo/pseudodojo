@@ -2,7 +2,7 @@
 name = "pseudodojo"
 version = "0.1.0"
 description = "PseudoDojo is an open-source Python framework for generating and validating pseudopotentials"
-authors = ["SurgeArrester <cameron.h@rgreaves.me.uk>", "gmatteo" <@uclouvain.be>]
+authors = ["SurgeArrester <cameron.h@rgreaves.me.uk>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
