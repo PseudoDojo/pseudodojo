@@ -8,7 +8,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pymatgen = "^2023.11.12"
-abipy = "^0.9.6"
+abipy = { git = "https://github.com/abinit/abipy.git" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.4.3"

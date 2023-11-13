@@ -23,23 +23,31 @@ jobs:
         ./configure --prefix=$HOME/libxc
         make
         make install
+        echo "Listing contents of /home/runner/libxc:"
+        ls /home/runner/libxc
         cd ..
 
     - name: Set environment variables for LibXC
       run: |
         echo "Below steps don't seem to be working"
-        echo "LIBXC_DIR=$HOME/libxc-4.3.4" >> $GITHUB_ENV
-        echo "LD_LIBRARY_PATH=$HOME/libxc-4.3.4/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
+        echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
+        echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
         echo $GITHUB_ENV
+        echo $LIBXC_DIR
         ls $LIBXC_DIR
+        ls $LIBXC_DIR/lib
         ls $LD_LIBRARY_PATH
+        ls $LD_LIBRARY_PATH/pseudodojo
+        ls $LD_LIBRARY_PATH/libxc-4.3.4
+        pwd
         ls $HOME/libxc-4.3.4/lib
+        ls $HOME/libxc
 
     - name: Download and compile ABINIT
       run: |
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure --with-libxc=$HOME/libxc-4.3.4/lib/
+        ./configure --with-libxc=$LIBXC_DIR/libxc/lib/
         make
         sudo make install
