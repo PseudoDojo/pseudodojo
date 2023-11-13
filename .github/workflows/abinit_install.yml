@@ -26,11 +26,13 @@ jobs:
         make install
         echo "Listing contents of /home/runner/libxc:"
         ls /home/runner/libxc
+        echo "Listing contents of /home/runner/libxc/lib:"
+        ls /home/runner/libxc/lib
         cd ..
 
     - name: Set environment variables for LibXC
       run: |
-        echo "Below steps don't seem to be working"
+        echo "Below steps don't seem to be working..."
         echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
         # echo $GITHUB_ENV
@@ -49,6 +51,6 @@ jobs:
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure --with-libxc=/home/runner/libxc/lib/
+        ./configure --LIBXC_LIBS=/home/runner/libxc/lib/
         make
         sudo make install
