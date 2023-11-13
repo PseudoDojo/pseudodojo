@@ -1,5 +1,5 @@
-name: Install ABINIT
-run-name: ${{ github.actor }} is installing abinit
+name: Install ONCVPSP
+run-name: ${{ github.actor }} is installing ONCVPSP
 
 on:
   workflow_run:

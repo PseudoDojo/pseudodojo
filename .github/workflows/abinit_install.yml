@@ -33,3 +33,11 @@ jobs:
           ls abinit
           echo abinit/config.log
           cp abinit/config.log ${{ github.workspace }}
+
+      - name: Copy config.log on success
+        run: |
+          ls abinit
+          cd ~
+          ls abinit
+          echo abinit/config.log
+          cp abinit/config.log ${{ github.workspace }}
