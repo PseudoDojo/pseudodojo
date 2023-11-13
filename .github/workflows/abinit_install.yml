@@ -1,4 +1,5 @@
 name: Install ABINIT
+run-name: ${{ github.actor }} is installing libxc and abinit
 
 on: [push, pull_request]
 
@@ -32,22 +33,22 @@ jobs:
         echo "Below steps don't seem to be working"
         echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
-        echo $GITHUB_ENV
-        echo $LIBXC_DIR
-        ls $LIBXC_DIR
-        ls $LIBXC_DIR/lib
-        ls $LD_LIBRARY_PATH
-        ls $LD_LIBRARY_PATH/pseudodojo
-        ls $LD_LIBRARY_PATH/libxc-4.3.4
-        pwd
-        ls $HOME/libxc-4.3.4/lib
-        ls $HOME/libxc
+        # echo $GITHUB_ENV
+        # echo $LIBXC_DIR
+        # ls $LIBXC_DIR
+        # ls $LIBXC_DIR/lib
+        # ls $LD_LIBRARY_PATH
+        # ls $LD_LIBRARY_PATH/pseudodojo
+        # ls $LD_LIBRARY_PATH/libxc-4.3.4
+        # pwd
+        # ls $HOME/libxc-4.3.4/lib
+        # ls $HOME/libxc
 
     - name: Download and compile ABINIT
       run: |
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure --with-libxc=$LIBXC_DIR/libxc/lib/
+        ./configure --with-libxc=/home/runner/libxc/lib/
         make
         sudo make install

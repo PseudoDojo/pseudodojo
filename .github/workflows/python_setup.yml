@@ -1,0 +1,33 @@
+name: Setup python env
+run-name: ${{ github.actor }} is setting up python env
+
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python -
+
+      - name: Configure Poetry
+        run: |
+          poetry config virtualenvs.create false
+
+      - name: Install dependencies with Poetry
+        run: |
+          poetry install
+
+      - name: Execute the tests
+        run: |
+          poetry run pytest

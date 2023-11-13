@@ -1,32 +1,18 @@
-name: Execute PseudoDojo Tests
+name: Execute PseudoDojo pytests
 run-name: ${{ github.actor }} is running Pseudo tests
 
-on: [push, pull_request]
+on:
+  workflow_run:
+    workflows: ["Setup python env", "Install ABINIT"]
+    types: 
+      - completed
+
 jobs:
-  build:
+  my_job:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v4
-        with: 
-          fetch-depth: 0
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: "3.11"
-
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python -
-
-      - name: Configure Poetry
-        run: |
-          poetry config virtualenvs.create false
-
-      - name: Install dependencies with Poetry
-        run: |
-          poetry install
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Execute the tests
         run: |
