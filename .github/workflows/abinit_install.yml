@@ -17,7 +17,7 @@ jobs:
 
     - name: Install LibXC
       run: |
-        wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz
+        wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
         tar -xvf libxc-4.3.4.tar.gz
         cd libxc-4.3.4
         ./configure --prefix=$HOME/libxc
