@@ -51,6 +51,11 @@ jobs:
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure --LIBXC_LIBS=/home/runner/libxc/lib/
+        ./configure --with-libxc=/home/runner/libxc/lib/
         make
         sudo make install
+
+    - name: Copy config.log on failure
+      if: failure()
+      run: |
+        cp abinit/config.log ${{ github.workspace }}
