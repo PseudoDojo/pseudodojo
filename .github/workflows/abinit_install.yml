@@ -25,7 +25,7 @@ jobs:
         make install
         cd ..
 
-    - name: Set environment variables
+    - name: Set environment variables for LibXC
       run: |
         echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
@@ -38,7 +38,6 @@ jobs:
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        echo 
         ./configure --with-libxc=$LD_LIBRARY_PATH
         make
         sudo make install
