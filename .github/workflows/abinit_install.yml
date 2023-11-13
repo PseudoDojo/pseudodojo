@@ -15,7 +15,7 @@ jobs:
         sudo apt-get update
         sudo apt-get install -y build-essential autoconf libtool pkg-config liblapack-dev libblas-dev libfftw3-dev libnetcdf-dev libnetcdff-dev
 
-    - name: Install LibXC
+    - name: Download and Compile LibXC
       run: |
         wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
         tar -xvf libxc-4.3.4.tar.gz
@@ -29,13 +29,16 @@ jobs:
       run: |
         echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
-
+        echo $GITHUB_ENV
+        ls $LIBXC_DIR
+        ls $LD_LIBRARY_PATH
 
     - name: Download and compile ABINIT
       run: |
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure
+        echo 
+        ./configure --with-libxc=$LD_LIBRARY_PATH
         make
         sudo make install
