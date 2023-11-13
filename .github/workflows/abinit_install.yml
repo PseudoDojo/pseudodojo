@@ -27,17 +27,19 @@ jobs:
 
     - name: Set environment variables for LibXC
       run: |
+        echo "Below steps don't seem to be working"
         echo "LIBXC_DIR=$HOME/libxc-4.3.4" >> $GITHUB_ENV
         echo "LD_LIBRARY_PATH=$HOME/libxc-4.3.4/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
         echo $GITHUB_ENV
         ls $LIBXC_DIR
         ls $LD_LIBRARY_PATH
+        ls $HOME/libxc-4.3.4/lib
 
     - name: Download and compile ABINIT
       run: |
         git clone https://github.com/abinit/abinit.git
         cd abinit
         ./autogen.sh
-        ./configure --with-libxc=$LD_LIBRARY_PATH/
+        ./configure --with-libxc=$HOME/libxc-4.3.4/lib/
         make
         sudo make install
