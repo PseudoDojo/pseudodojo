@@ -59,11 +59,6 @@ jobs:
           fi
           echo "Listing contents of /home/runner/libxc:"
           ls /home/runner/libxc
-          echo "Listing contents of /home/runner/libxc/lib:"
-          ls /home/runner/libxc/lib
-          cd ..
-
-          du -h $HOME/libxc
 
       - name: Download and Compile ONCVPSP
         run: |
@@ -80,4 +75,15 @@ jobs:
           sed -i 's|FFLAGS += -I/usr/local/libxc/include|FFLAGS += -I/home/runner/libxc/include|' make.inc
           cat make.inc
           make
-          make install
+          # make install
+          echo "Listing ONCVPSP dir"
+          ls
+          echo "Listing ONCVPSP scripts" 
+          ls scripts
+          echo "Printing current location"
+          pwd
+          cd ..
+          echo "home dir ls"
+          ls
+
+          ls
