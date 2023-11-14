@@ -25,21 +25,22 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y build-essential autoconf libtool pkg-config liblapack-dev libblas-dev libfftw3-dev libnetcdf-dev libnetcdff-dev
 
-      # - name: Download and Compile LibXC
-      #   run: |
-      #     if [ ! -d "$HOME/libxc" ]; then
-      #       wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
-      #       tar -xvf libxc-4.3.4.tar.gz
-      #       cd libxc-4.3.4
-      #       ./configure --prefix=$HOME/libxc
-      #       make
-      #       make install
-      #     fi
-      #     echo "Listing contents of /home/runner/libxc:"
-      #     ls /home/runner/libxc
-      #     echo "Listing contents of /home/runner/libxc/lib:"
-      #     ls /home/runner/libxc/lib
-      #     cd ..
+      - name: Download and Compile LibXC
+        run: |
+          ls $HOME/libxc
+          if [ ! -d "$HOME/libxc" ]; then
+            wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
+            tar -xvf libxc-4.3.4.tar.gz
+            cd libxc-4.3.4
+            ./configure --prefix=$HOME/libxc
+            make
+            make install
+          fi
+          echo "Listing contents of /home/runner/libxc:"
+          ls /home/runner/libxc
+          echo "Listing contents of /home/runner/libxc/lib:"
+          ls /home/runner/libxc/lib
+          cd ..
 
       - name: Set environment variables for LibXC
         run: |
