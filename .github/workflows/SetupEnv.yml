@@ -73,5 +73,6 @@ jobs:
           cd oncvpsp-4.0.1
           echo "LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc" >> make.inc
           echo "FFLAGS += -I/home/runner/libxc/include" >> make.inc
+          cat make.inc
           make
           make install
