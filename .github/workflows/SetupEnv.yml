@@ -65,19 +65,16 @@ jobs:
 
           du -h $HOME/libxc
 
-      - name: Find libblas (Testing for oncvpsp)
-        run: |
-          find /usr -name "libblas*"
-          dpkg -L libblas-dev
-
       - name: Download and Compile ONCVPSP
         run: |
           ls /home/runner/libxc/include
           wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
           tar -xvf oncvpsp-4.0.1.tar.gz
           cd oncvpsp-4.0.1
+          
           # Modify make.inc using sed for GH libblas
-          sed -i 's|LIBS += -L/usr/local/libxc/lib -lxcf90 -lxc|LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc -L/usr/lib/x86_64-linux-gnu -lblas|' make.inc
+          sed -i 's|^LIBS = -L/usr/local/lapack/lib -llapack -lrefblas|LIBS = -L/usr/lib/x86_64-linux-gnu -llapack -lblas|' make.inc
+          
           # Update make to point to GH libxc folder
           sed -i 's|LIBS += -L/usr/local/libxc/lib -lxcf90 -lxc|LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc|' make.inc
           sed -i 's|FFLAGS += -I/usr/local/libxc/include|FFLAGS += -I/home/runner/libxc/include|' make.inc
