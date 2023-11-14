@@ -48,3 +48,4 @@ jobs:
           echo "Below steps aren't used..."
           echo "LIBXC_DIR=$HOME/libxc" >> $GITHUB_ENV
           echo "LD_LIBRARY_PATH=$HOME/libxc/lib:$LD_LIBRARY_PATH" >> $GITHUB_ENV
+          ls /home/runner/libxc
