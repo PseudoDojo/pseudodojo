@@ -1,7 +1,11 @@
 name: Install LibXC
 run-name: ${{ github.actor }} is installing libxc
 
-on: [push, pull_request]
+on: 
+  workflow_run:
+    workflows: ["Setup python env"]
+    types: 
+      - completed
 
 jobs:
   build:
