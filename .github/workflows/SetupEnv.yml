@@ -34,6 +34,15 @@ jobs:
           restore-keys: |
             libxc-4.3.4-${{ runner.os }}-
 
+      - name: Cache ONCVPSP
+        uses: actions/cache@v3
+        with:
+          path: |
+            /home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1
+          key: oncvpsp-4.0.1-${{ runner.os }}-${{ hashFiles('**/oncvpsp-4.0.1.tar.gz') }}
+          restore-keys: |
+            oncvpsp-4.0.1-${{ runner.os }}-
+
       - name: Install Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python -
@@ -62,28 +71,20 @@ jobs:
 
       - name: Download and Compile ONCVPSP
         run: |
-          ls /home/runner/libxc/include
-          wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
-          tar -xvf oncvpsp-4.0.1.tar.gz
-          cd oncvpsp-4.0.1
-          
-          # Modify make.inc using sed for GH libblas
-          sed -i 's|^LIBS = -L/usr/local/lapack/lib -llapack -lrefblas|LIBS = -L/usr/lib/x86_64-linux-gnu -llapack -lblas|' make.inc
-          
-          # Update make to point to GH libxc folder
-          sed -i 's|LIBS += -L/usr/local/libxc/lib -lxcf90 -lxc|LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc|' make.inc
-          sed -i 's|FFLAGS += -I/usr/local/libxc/include|FFLAGS += -I/home/runner/libxc/include|' make.inc
-          cat make.inc
-          make
-          # make install
-          echo "Listing ONCVPSP dir"
-          ls
-          echo "Listing ONCVPSP scripts" 
-          ls scripts
-          echo "Printing current location"
-          pwd
-          cd ..
-          echo "home dir ls"
-          ls
+          if [ ! -d "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1" ]; then
+            wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
+            tar -xvf oncvpsp-4.0.1.tar.gz
+            cd oncvpsp-4.0.1
+            
+            # Modify make.inc using sed for GH libblas
+            sed -i 's|^LIBS = -L/usr/local/lapack/lib -llapack -lrefblas|LIBS = -L/usr/lib/x86_64-linux-gnu -llapack -lblas|' make.inc
+            
+            # Update make to point to GH libxc folder
+            sed -i 's|LIBS += -L/usr/local/libxc/lib -lxcf90 -lxc|LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc|' make.inc
+            sed -i 's|FFLAGS += -I/usr/local/libxc/include|FFLAGS += -I/home/runner/libxc/include|' make.inc
+            
+            make
+          fi
 
-          ls
+          echo "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1/src" >> $GITHUB_PATH
+          echo $GITHUB_PATH
