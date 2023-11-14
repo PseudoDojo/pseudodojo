@@ -15,7 +15,7 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            $HOME/libxc
+            /home/runner/libxc
           key: libxc-4.3.4-${{ runner.os }}-${{ hashFiles('**/libxc-4.3.4.tar.gz') }}
           restore-keys: |
             libxc-4.3.4-${{ runner.os }}-
@@ -40,6 +40,8 @@ jobs:
           echo "Listing contents of /home/runner/libxc/lib:"
           ls /home/runner/libxc/lib
           cd ..
+
+          du -h $HOME/libxc
 
       - name: Set environment variables for LibXC
         run: |
