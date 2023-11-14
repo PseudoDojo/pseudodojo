@@ -65,6 +65,11 @@ jobs:
 
           du -h $HOME/libxc
 
+      - name: Find libblas (Testing for oncvpsp)
+        run: |
+          find /usr -name "libblas*"
+          dpkg -L libblas-dev
+
       - name: Download and Compile ONCVPSP
         run: |
           ls /home/runner/libxc/include
