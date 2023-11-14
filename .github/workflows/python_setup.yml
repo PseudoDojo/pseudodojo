@@ -16,18 +16,19 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Cache Poetry virtual environment
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+
       - name: Install Poetry
         run: |
           curl -sSL https://install.python-poetry.org | python -
 
-      - name: Configure Poetry
-        run: |
-          poetry config virtualenvs.create false
-
       - name: Install dependencies with Poetry
         run: |
           poetry install
-
-      - name: Execute the tests
-        run: |
-          poetry run pytest
