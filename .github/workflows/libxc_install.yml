@@ -27,7 +27,6 @@ jobs:
 
       - name: Download and Compile LibXC
         run: |
-          ls $HOME/libxc
           if [ ! -d "$HOME/libxc" ]; then
             wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
             tar -xvf libxc-4.3.4.tar.gz
