@@ -16,6 +16,7 @@ jobs:
 
       - name: Download and Compile ONCVPSP
         run: |
+          ls /home/runner/libxc/include
           wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
           tar -xvf oncvpsp-4.0.1.tar.gz
           cd oncvpsp-4.0.1
