@@ -47,11 +47,11 @@ jobs:
         run: |
           curl -sSL https://install.python-poetry.org | python -
 
-      - name: Install dependencies with Poetry
+      - name: Install python dependencies with Poetry
         run: |
           poetry install
       
-      - name: Install LibXC dependencies
+      - name: Install dependencies for LibXC/ONCVPSP/ABINIT
         run: |
           sudo apt-get update
           sudo apt-get install -y build-essential autoconf libtool pkg-config liblapack-dev libblas-dev libfftw3-dev libnetcdf-dev libnetcdff-dev
@@ -88,3 +88,5 @@ jobs:
 
           echo "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1/src" >> $GITHUB_PATH
           echo $GITHUB_PATH
+
+          
