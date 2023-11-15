@@ -95,6 +95,8 @@ jobs:
           cd abinit
           ./autogen.sh
           ./configure --with-libxc=/home/runner/libxc/lib/
+          echo "Checking if this worked"
+          echo config.log
           make
           ls
           ls build
