@@ -100,15 +100,22 @@ jobs:
 
       - name: Download and compile ABINIT
         run: |
-          git clone https://github.com/abinit/abinit.git
-          cd abinit
-          ./autogen.sh
-          ./configure --with-libxc=/home/runner/libxc/
-          echo "Checking if this worked"
-          cat config.log
-          make
-          ls
-          ls build
+          if [ ! -d "/home/runner/work/pseudodojo/pseudodojo/abinit/build" ]; then
+            git clone https://github.com/abinit/abinit.git
+            cd abinit
+            ./autogen.sh
+            ./configure --with-libxc=/home/runner/libxc/ --with-mpi=no
+            echo "Checking if this worked"
+            cat config.log
+            make
+            ls
+            ls build
+          fi
+          echo "Checking abinit build via ls abinit/build"
+          ls abinit/build
+
+          echo "/home/runner/work/pseudodojo/pseudodojo/abinit/build" >> $GITHUB_PATH
+          echo $GITHUB_PATH
 
       - name: Execute the python tests
         run: |
