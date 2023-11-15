@@ -1,5 +1,5 @@
 name: PseudoDojo Tests
-run-name: ${{ github.actor }} is setting up pseudodojo env
+run-name: ${{ github.actor }} is running pseudodojo tests
 
 on: [push, pull_request]
 jobs:
@@ -109,12 +109,10 @@ jobs:
             cat config.log
             make
             ls
-            ls build
+            ls build/src/98_main
           fi
-          echo "Checking abinit build via ls abinit/build"
-          ls abinit/build
 
-          echo "/home/runner/work/pseudodojo/pseudodojo/abinit/build" >> $GITHUB_PATH
+          echo "/home/runner/work/pseudodojo/pseudodojo/abinit/build/src/98_main" >> $GITHUB_PATH
           echo $GITHUB_PATH
 
       - name: Execute the python tests
