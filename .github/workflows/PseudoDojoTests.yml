@@ -116,6 +116,6 @@ jobs:
           echo "/home/runner/work/pseudodojo/pseudodojo/abinit/bin" >> $GITHUB_PATH
           echo $GITHUB_PATH
 
-      # - name: Execute the python tests
-      #   run: |
-      #     poetry run pytest
+      - name: Execute the python tests
+        run: |
+          poetry run pytest

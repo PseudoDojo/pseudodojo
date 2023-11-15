@@ -32,7 +32,7 @@ tqdm = "*"
 type = "git"
 url = "https://github.com/abinit/abipy.git"
 reference = "HEAD"
-resolved_reference = "726ef59a9edc42455e73803872938d09ae98c92b"
+resolved_reference = "59e3816168ea11ab90622531948d0dac4cd31df9"
 
 [[package]]
 name = "aniso8601"
