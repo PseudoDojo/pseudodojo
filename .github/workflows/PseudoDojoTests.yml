@@ -105,15 +105,15 @@ jobs:
             git clone https://github.com/abinit/abinit.git
             cd abinit
             ./autogen.sh
-            ./configure --with-libxc=/home/runner/libxc/ --with-mpi="no"
+            FCFLAGS="-O0" ./configure --with-libxc=/home/runner/libxc/ --with-mpi="no" --prefix=/home/runner/work/pseudodojo/pseudodojo/abinit/bin
             echo "Checking if this worked"
             cat config.log
             make
+            make install
             ls
-            ls build/src/98_main
           fi
 
-          echo "/home/runner/work/pseudodojo/pseudodojo/abinit/build/src/98_main" >> $GITHUB_PATH
+          echo "/home/runner/work/pseudodojo/pseudodojo/abinit/bin" >> $GITHUB_PATH
           echo $GITHUB_PATH
 
       - name: Execute the python tests
