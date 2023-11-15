@@ -96,7 +96,7 @@ jobs:
           ./autogen.sh
           ./configure --with-libxc=/home/runner/libxc/lib/
           echo "Checking if this worked"
-          echo config.log
+          cat config.log
           make
           ls
           ls build
