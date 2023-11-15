@@ -1,0 +1,19 @@
+name: Execute PseudoDojo pytests
+run-name: ${{ github.actor }} is running Pseudo tests
+
+on:
+  workflow_run:
+    workflows: ["Setup pseudodojo env"]
+    types: 
+      - completed
+
+jobs:
+  my_job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Execute the tests
+        run: |
+          poetry run pytest
