@@ -89,4 +89,12 @@ jobs:
           echo "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1/src" >> $GITHUB_PATH
           echo $GITHUB_PATH
 
-          
+      - name: Download and compile ABINIT
+        run: |
+          git clone https://github.com/abinit/abinit.git
+          cd abinit
+          ./autogen.sh
+          ./configure --with-libxc=/home/runner/libxc/lib/
+          make
+          ls
+          ls build
