@@ -144,7 +144,7 @@ function load_set_info(animate) {
     xcf = document.getElementById('XCF').value;
     type = document.getElementById('TYP').value;
     set_info({}, 0);
-    var file = type + '_' + xcf + '_' + acc + '.json';
+    var file = 'static/json/' + type + '_' + xcf + '_' + acc + '.json';
     loadJSON(file, function(response) {
         var info = JSON.parse(response);
         set_info(info, animate);
