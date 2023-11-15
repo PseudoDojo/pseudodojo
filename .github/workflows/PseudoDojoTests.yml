@@ -101,7 +101,7 @@ jobs:
 
       - name: Download and compile ABINIT
         run: |
-          if [ ! -d "/home/runner/work/pseudodojo/pseudodojo/abinit/build" ]; then
+          if [ ! -d "/home/runner/work/pseudodojo/pseudodojo/abinit/bin" ]; then
             git clone https://github.com/abinit/abinit.git
             cd abinit
             ./autogen.sh
