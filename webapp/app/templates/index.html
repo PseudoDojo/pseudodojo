@@ -83,18 +83,18 @@
 
     <div class="description">
       <p>
-        Select the flavor and <a href="./about.html">format</a>, then click "Download" to
+        Select the flavor and <a href="{{ url_for('about') }}">format</a>, then click "Download" to
         get the complete table of pseudos or choose a specific element. "HTML" gives full test results.
       </p>
     </div>
     <div class="menubar">
       <div class="menutext">
         <p>
-          <a href="faq.html"><span>F.A.Q.</span></a>
-          <a href="contribute.html"><span>Contribute</span></a>
-          <a id='papers' href="paperlist.html"><span>Papers</span></a>
+          <a href="{{ url_for('faq') }}"><span>F.A.Q.</span></a>
+          <a href="{{ url_for('contribute') }}"><span>Contribute</span></a>
+          <a id='papers' href="{{ url_for('paperlist') }}"><span>Papers</span></a>
           <span style="padding-left: 5em">
-          <span><a href="about.html">About</a></span></span>
+          <span><a href="{{ url_for('about') }}">About</a></span></span>
         </p>
       </div>
     </div>
