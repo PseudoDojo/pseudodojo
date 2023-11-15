@@ -11,7 +11,7 @@
 <head>
 <title>Pseudo Dojo</title>
 <meta charset="utf-8"/>
-<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
 </head>
 
 <body>
@@ -19,7 +19,7 @@
 <div class="table">
   <aside class="infobox">
     <div class="intro">
-      <h1 class="logo"><a href="index.html" title="The Pseudo Dojo">The Pseudo Dojo</a></h1>
+      <h1 class="logo"><a href="{{ url_for('index') }}" title="The Pseudo Dojo">The Pseudo Dojo</a></h1>
     </div>
     <div class="download_button">
      Contributing
@@ -27,11 +27,11 @@
     <div class="menubar">
       <div class="menutext">
         <p>
-          <a href="index.html"><span>Home</span></a>
-          <a href="faq.html"><span>F.A.Q.</span></a>
-          <a href="paperlist.html"><span>Papers</span></a>
+          <a href="{{ url_for('index') }}"><span>Home</span></a>
+          <a href="{{ url_for('faq') }}"><span>F.A.Q.</span></a>
+          <a href="{{ url_for('paperlist') }}"><span>Papers</span></a>
           <span style="padding-left: 7em">
-          <span><a href="about.html">About</a></span></span>
+          <span><a href="{{ url_for('about') }}">About</a></span></span>
         </p>
       </div>
     </div>
