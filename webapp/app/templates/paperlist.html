@@ -101,9 +101,9 @@ document.write("<a href='mailto:"+link+"'>contact us</a>")
 </script><noscript>Sorry, you need Javascript on to email me.</noscript>
 
 <center>
-<div> <img src="year.png"></div>
+<div> <img src="{{ url_for('static', filename='img/year.png')"></div>
 </center>
-<div w3-include-html="papers.html"></div>
+<div w3-include-html="{{ url_for('papers') }}"></div>
 </lu>
 </aside>
 </div>
