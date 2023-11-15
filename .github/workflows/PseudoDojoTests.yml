@@ -105,7 +105,7 @@ jobs:
             git clone https://github.com/abinit/abinit.git
             cd abinit
             ./autogen.sh
-            FCFLAGS="-O0" ./configure --with-libxc=/home/runner/libxc/ --with-mpi="no" --prefix=/home/runner/work/pseudodojo/pseudodojo/abinit/bin
+            ./configure --with-libxc=/home/runner/libxc/ --with-mpi="no" --prefix=/home/runner/work/pseudodojo/pseudodojo/abinit/bin
             echo "Checking if this worked"
             cat config.log
             make
