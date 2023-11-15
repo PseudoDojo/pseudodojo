@@ -2,38 +2,38 @@
   "nc-fr-v0.4": {
     "PBEsol": {
       "standard": {
-        "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_djrepo.tgz",
-        "psml": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_psml.tgz",
-        "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_psp8.tgz",
-        "upf": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_upf.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_djrepo.tgz",
+        "psml": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_psml.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_psp8.tgz",
+        "upf": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_standard_upf.tgz"
       },
       "stringent": {
-        "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_djrepo.tgz",
-        "psml": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_psml.tgz",
-        "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_psp8.tgz",
-        "upf": "ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_upf.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_djrepo.tgz",
+        "psml": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_psml.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_psp8.tgz",
+        "upf": "static/pseudos/ONCVPSP-PBEsol-FR-PDv0.4/nc-fr-v0.4_PBEsol_stringent_upf.tgz"
       }
     }
   },
   "nc-sr-v0.4": {
     "PBE": {
       "standard": {
-        "djrepo": "ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_standard_djrepo.tgz",
-        "psp8": "ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_standard_psp8.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_standard_djrepo.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_standard_psp8.tgz"
       },
       "stringent": {
-        "djrepo": "ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_stringent_djrepo.tgz",
-        "psp8": "ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_stringent_psp8.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_stringent_djrepo.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBE-SR-PDv0.4/nc-sr-v0.4_PBE_stringent_psp8.tgz"
       }
     },
     "PBEsol": {
       "standard": {
-        "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_standard_djrepo.tgz",
-        "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_standard_psp8.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_standard_djrepo.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_standard_psp8.tgz"
       },
       "stringent": {
-        "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_stringent_djrepo.tgz",
-        "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_stringent_psp8.tgz"
+        "djrepo": "static/pseudos/ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_stringent_djrepo.tgz",
+        "psp8": "static/pseudos/ONCVPSP-PBEsol-SR-PDv0.4/nc-sr-v0.4_PBEsol_stringent_psp8.tgz"
       }
     }
   }

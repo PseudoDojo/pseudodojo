@@ -1,6 +1,6 @@
 "use strict";
 
-const DEBUG = false;
+const DEBUG = true;
 
 const ANIMATE = 1;
 
@@ -60,8 +60,8 @@ function set_warning(txt) {
   warningbox.innerHTML = "<div class='alert warning'><span id='cbn' class='closebtn'>&times;</span><strong>Warning!</strong> ".concat(txt, "</div>");
   var close = document.getElementById("cbn");
   close.onclick = function(){
-     var div = document.getElementById('warning_box');
-     setTimeout(function(){div.innerHTML = "";}, 100);
+    var div = document.getElementById('warning_box');
+    setTimeout(function(){div.innerHTML = "";}, 100);
   }
 }
 
@@ -81,7 +81,7 @@ function make_light() {
     document.getElementById("download_button").setAttribute("style","left:70px; top:151px; width:200px; height:55px; padding:15px");
     elements = document.getElementsByClassName('element')
     for (var i; i < elements.length; i++){
-       elements[i].setAttribute('style', 'font-size:24px; margin-top:12px; line-height:1; text-align:center;');
+      elements[i].setAttribute('style', 'font-size:24px; margin-top:12px; line-height:1; text-align:center;');
     }
     document.getElementById("X_el").setAttribute('style', 'margin-top:20px;');
     document.getElementById("X_hl").setAttribute('style', 'font-size:20px; padding:2px');
@@ -160,9 +160,10 @@ function dojo_start() {
 
     $.when(a, b).done(function(v1, v2){
        // when all requests are successful
-       FILES = v1[0];
-       TARGZ = v2[0];
-       build_ui();
+      FILES = v1[0];
+      TARGZ = v2[0];
+      build_ui();
+      console.log(FILES);
     });
 }
 
@@ -269,8 +270,8 @@ function dojoTour_guidedtour() {
         {
           element: '#TYP',
           intro: "Here you select the type of pseudopotential. " + 
-                 "SR stands for scalar relativistic, FR for fully relativistic (including SOC). " +
-                 'The options for XC, table and format are adjusted based on your choice.'
+                "SR stands for scalar relativistic, FR for fully relativistic (including SOC). " +
+                'The options for XC, table and format are adjusted based on your choice.'
         },
         {
           element: '#XCF',
@@ -752,7 +753,7 @@ function set_options(){
   var options = document.getElementById('TYP').options;
   for (var i in options){
     if (options[i].value == typ){
-         options[i].selected = true;
+        options[i].selected = true;
     }
   }
 
@@ -762,27 +763,27 @@ function set_options(){
   if (localStorage.getItem('selectedXCF')) {
     var options = document.getElementById('XCF').options
     for (var i in options){
-       if (options[i].value == localStorage.getItem('selectedXCF')){
-         options[i].selected = true;
-       }
+      if (options[i].value == localStorage.getItem('selectedXCF')){
+        options[i].selected = true;
+      }
     }
   }
 
   if (localStorage.getItem('selectedTABLE')) {
     var options = document.getElementById('TABLE').options
     for (var i in options){
-       if (options[i].value == localStorage.getItem('selectedTABLE')){
-         options[i].selected = true;
-       }
+      if (options[i].value == localStorage.getItem('selectedTABLE')){
+        options[i].selected = true;
+      }
     }
   }
 
   if (localStorage.getItem('selectedFMT')) {
     var options = document.getElementById('FMT').options
     for (var i in options){
-       if (options[i].value == localStorage.getItem('selectedFMT')){
-         options[i].selected = true;
-       }
+      if (options[i].value == localStorage.getItem('selectedFMT')){
+        options[i].selected = true;
+      }
     }
   }
 }
