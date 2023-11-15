@@ -1,0 +1,4336 @@
+{
+  "nc-fr-v0.4": {
+    "PBEsol": {
+      "standard": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ag/Ag-sp_r.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ag/Ag-sp_r.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Al/Al_r.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Al/Al_r.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ar/Ar_r.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ar/Ar_r.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/As/As-d_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/As/As-d_r.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Au/Au-sp_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Au/Au-sp_r.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/B/B_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/B/B_r.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ba/Ba-sp_r.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ba/Ba-sp_r.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Be/Be-s_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Be/Be-s_r.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Bi/Bi-d_r.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Bi/Bi-d_r.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Br/Br_r.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Br/Br_r.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/C/C_r.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/C/C_r.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ca/Ca-sp_r.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ca/Ca-sp_r.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cd/Cd-sp_r.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cd/Cd-sp_r.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cl/Cl_r.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cl/Cl_r.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Co/Co-sp_r.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Co/Co-sp_r.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cr/Cr-sp_r.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 43.0,
+            "hn": 47.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cr/Cr-sp_r.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cs/Cs-sp_r.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cs/Cs-sp_r.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cu/Cu-sp_r.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cu/Cu-sp_r.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/F/F_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/F/F_r.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Fe/Fe-sp_r.djrepo",
+          "meta": {
+            "hh": 53.0,
+            "hl": 41.0,
+            "hn": 45.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Fe/Fe-sp_r.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ga/Ga-d_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ga/Ga-d_r.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-d_r.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 14.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-d_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-d_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-d_r.upf"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/H/H_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/H/H_r.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/He/He_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/He/He_r.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Hf/Hf-sp_r.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Hf/Hf-sp_r.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Hg/Hg-sp_r.djrepo",
+          "meta": {
+            "hh": 39.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Hg/Hg-sp_r.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/I/I_r.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/I/I_r.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/In/In-d_r.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/In/In-d_r.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ir/Ir-sp_r.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ir/Ir-sp_r.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/K/K-sp_r.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/K/K-sp_r.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Kr/Kr_r.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Kr/Kr_r.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/La/La-sp_r.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/La/La-sp_r.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Li/Li-s_r.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Li/Li-s_r.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mg/Mg-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mg/Mg-sp_r.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mn/Mn-sp_r.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mn/Mn-sp_r.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mo/Mo-sp_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mo/Mo-sp_r.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/N/N_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/N/N_r.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Na/Na-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Na/Na-sp_r.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Nb/Nb-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Nb/Nb-sp_r.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ne/Ne_r.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ne/Ne_r.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ni/Ni-sp_r.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 45.0,
+            "hn": 49.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ni/Ni-sp_r.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/O/O_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/O/O_r.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Os/Os-sp_r.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Os/Os-sp_r.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/P/P_r.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/P/P_r.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pb/Pb-d_r.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 24.0,
+            "hn": 28.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pb/Pb-d_r.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pd/Pd-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pd/Pd-sp_r.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Po/Po-d_r.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Po/Po-d_r.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pt/Pt-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pt/Pt-sp_r.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rb/Rb-sp_r.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rb/Rb-sp_r.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Re/Re-sp_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Re/Re-sp_r.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rh/Rh-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rh/Rh-sp_r.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rn/Rn-d_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rn/Rn-d_r.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ru/Ru-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ru/Ru-sp_r.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/S/S_r.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/S/S_r.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-d_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 15.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-d_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-d_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-d_r.upf"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sc/Sc-sp_r.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sc/Sc-sp_r.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Se/Se-d_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 43.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Se/Se-d_r.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Si/Si_r.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Si/Si_r.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sn/Sn-d_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sn/Sn-d_r.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sr/Sr-sp_r.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sr/Sr-sp_r.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ta/Ta-sp_r.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ta/Ta-sp_r.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Tc/Tc-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Tc/Tc-sp_r.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-d_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 34.0,
+            "hn": 40.0,
+            "nv": 16.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-d_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-d_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-d_r.upf"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ti/Ti-sp_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ti/Ti-sp_r.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Tl/Tl-d_r.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 27.0,
+            "hn": 31.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Tl/Tl-d_r.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/V/V-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/V/V-sp_r.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/W/W-sp_r.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/W/W-sp_r.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Xe/Xe_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Xe/Xe_r.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Y/Y-sp_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Y/Y-sp_r.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Zn/Zn-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Zn/Zn-sp_r.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Zr/Zr-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Zr/Zr-sp_r.psp8"
+        }
+      },
+      "stringent": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ag/Ag-sp_r.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ag/Ag-sp_r.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Al/Al_r.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Al/Al_r.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ar/Ar_r.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ar/Ar_r.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/As/As-spd-high_r.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/As/As-spd-high_r.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Au/Au-sp_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Au/Au-sp_r.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/B/B_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/B/B_r.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ba/Ba-sp-high_r.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ba/Ba-sp-high_r.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Be/Be-s-high_r.djrepo",
+          "meta": {
+            "hh": 59.0,
+            "hl": 49.0,
+            "hn": 53.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Be/Be-s-high_r.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Bi/Bi-spd-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Bi/Bi-spd-high_r.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Br/Br-d_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Br/Br-d_r.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/C/C_r.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/C/C_r.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ca/Ca-sp_r.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ca/Ca-sp_r.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cd/Cd-sp-high_r.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 54.0,
+            "hn": 60.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cd/Cd-sp-high_r.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cl/Cl_r.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cl/Cl_r.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Co/Co-sp-high_r.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Co/Co-sp-high_r.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cr/Cr-sp-high_r.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 56.0,
+            "hn": 60.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cr/Cr-sp-high_r.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cs/Cs-sp_r.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cs/Cs-sp_r.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Cu/Cu-sp-high_r.djrepo",
+          "meta": {
+            "hh": 60.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Cu/Cu-sp-high_r.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/F/F_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/F/F_r.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Fe/Fe-sp-high_r.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 55.0,
+            "hn": 59.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Fe/Fe-sp-high_r.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ga/Ga-spd-high_r.djrepo",
+          "meta": {
+            "hh": 61.0,
+            "hl": 53.0,
+            "hn": 57.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ga/Ga-spd-high_r.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-spd-high_r.djrepo",
+          "meta": {
+            "hh": 68.0,
+            "hl": 56.0,
+            "hn": 62.0,
+            "nv": 22.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-spd-high_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-spd-high_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Ge/Ge-spd-high_r.upf"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/H/H_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/H/H_r.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/He/He_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/He/He_r.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Hf/Hf-fsp_r.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 26.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Hf/Hf-fsp_r.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Hg/Hg-sp-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Hg/Hg-sp-high_r.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/I/I-d_r.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/I/I-d_r.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/In/In-spd-high_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/In/In-spd-high_r.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ir/Ir-sp_r.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ir/Ir-sp_r.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/K/K-sp_r.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/K/K-sp_r.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Kr/Kr_r.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Kr/Kr_r.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/La/La-sp_r.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/La/La-sp_r.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Li/Li-s-high_r.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 44.0,
+            "hn": 48.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Li/Li-s-high_r.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mg/Mg-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mg/Mg-sp_r.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mn/Mn-sp-high_r.djrepo",
+          "meta": {
+            "hh": 69.0,
+            "hl": 61.0,
+            "hn": 65.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mn/Mn-sp-high_r.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Mo/Mo-sp_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Mo/Mo-sp_r.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/N/N_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/N/N_r.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Na/Na-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Na/Na-sp_r.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Nb/Nb-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Nb/Nb-sp_r.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ne/Ne-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ne/Ne-high_r.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ni/Ni-sp-high_r.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ni/Ni-sp-high_r.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/O/O-high_r.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/O/O-high_r.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Os/Os-sp_r.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Os/Os-sp_r.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/P/P_r.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/P/P_r.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pb/Pb-spd-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 36.0,
+            "hn": 44.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pb/Pb-spd-high_r.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pd/Pd-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pd/Pd-sp_r.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Po/Po-spd-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Po/Po-spd-high_r.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Pt/Pt-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Pt/Pt-sp_r.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rb/Rb-sp_r.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rb/Rb-sp_r.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Re/Re-sp_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Re/Re-sp_r.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rh/Rh-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rh/Rh-sp_r.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Rn/Rn-d_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Rn/Rn-d_r.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ru/Ru-sp_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ru/Ru-sp_r.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/S/S_r.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/S/S_r.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-spd-high_r.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 23.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-spd-high_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-spd-high_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Sb/Sb-spd-high_r.upf"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sc/Sc-sp_r.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sc/Sc-sp_r.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Se/Se-spd-high_r.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Se/Se-spd-high_r.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Si/Si_r.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Si/Si_r.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sn/Sn-spd-high_r.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 45.0,
+            "hn": 51.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sn/Sn-spd-high_r.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Sr/Sr-sp-high_r.djrepo",
+          "meta": {
+            "hh": 36.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Sr/Sr-sp-high_r.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ta/Ta-fsp_r.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 27.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ta/Ta-fsp_r.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Tc/Tc-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Tc/Tc-sp_r.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-spd-high_r.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 24.0
+          },
+          "psml": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-spd-high_r.psml",
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-spd-high_r.psp8",
+          "upf": "ONCVPSP-PBEsol-FR-PDv0.4/Te/Te-spd-high_r.upf"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Ti/Ti-sp_r.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Ti/Ti-sp_r.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Tl/Tl-spd-high_r.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Tl/Tl-spd-high_r.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/V/V-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/V/V-sp_r.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/W/W-sp_r.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/W/W-sp_r.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Xe/Xe_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Xe/Xe_r.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Y/Y-sp_r.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Y/Y-sp_r.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Zn/Zn-sp_r.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Zn/Zn-sp_r.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBEsol-FR-PDv0.4/Zr/Zr-sp_r.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-FR-PDv0.4/Zr/Zr-sp_r.psp8"
+        }
+      }
+    }
+  },
+  "nc-sr-v0.4": {
+    "PBE": {
+      "standard": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ag/Ag-sp.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ag/Ag-sp.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Al/Al.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Al/Al.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ar/Ar.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ar/Ar.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/As/As-d.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/As/As-d.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Au/Au-sp.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Au/Au-sp.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/B/B.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/B/B.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ba/Ba-sp.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ba/Ba-sp.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Be/Be-s.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Be/Be-s.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Bi/Bi-d.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Bi/Bi-d.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Br/Br.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Br/Br.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/C/C.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/C/C.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ca/Ca-sp.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ca/Ca-sp.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cd/Cd-sp.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cd/Cd-sp.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cl/Cl.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cl/Cl.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Co/Co-sp.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Co/Co-sp.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cr/Cr-sp.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 43.0,
+            "hn": 47.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cr/Cr-sp.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cs/Cs-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cs/Cs-sp.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cu/Cu-sp.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cu/Cu-sp.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/F/F.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/F/F.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Fe/Fe-sp.djrepo",
+          "meta": {
+            "hh": 53.0,
+            "hl": 41.0,
+            "hn": 45.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Fe/Fe-sp.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ga/Ga-d.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ga/Ga-d.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ge/Ge-d.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ge/Ge-d.psp8"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/H/H.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/H/H.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/He/He.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/He/He.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Hf/Hf-sp.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Hf/Hf-sp.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Hg/Hg-sp.djrepo",
+          "meta": {
+            "hh": 39.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Hg/Hg-sp.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/I/I.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/I/I.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/In/In-d.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/In/In-d.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ir/Ir-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ir/Ir-sp.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/K/K-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/K/K-sp.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Kr/Kr.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Kr/Kr.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/La/La-sp.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/La/La-sp.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Li/Li-s.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Li/Li-s.psp8"
+        },
+        "Lu": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Lu/Lu-fsp.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 25.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Lu/Lu-fsp.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mg/Mg-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mg/Mg-sp.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mn/Mn-sp.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mn/Mn-sp.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mo/Mo-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mo/Mo-sp.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/N/N.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/N/N.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Na/Na-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Na/Na-sp.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Nb/Nb-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Nb/Nb-sp.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ne/Ne.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ne/Ne.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ni/Ni-sp.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 45.0,
+            "hn": 49.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ni/Ni-sp.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/O/O.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/O/O.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Os/Os-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Os/Os-sp.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/P/P.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/P/P.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pb/Pb-d.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 24.0,
+            "hn": 28.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pb/Pb-d.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pd/Pd-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pd/Pd-sp.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Po/Po-d.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Po/Po-d.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pt/Pt-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pt/Pt-sp.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rb/Rb-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rb/Rb-sp.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Re/Re-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Re/Re-sp.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rh/Rh-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rh/Rh-sp.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rn/Rn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rn/Rn-d.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ru/Ru-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ru/Ru-sp.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/S/S.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/S/S.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sb/Sb-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sb/Sb-d.psp8"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sc/Sc-sp.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sc/Sc-sp.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Se/Se-d.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 43.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Se/Se-d.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Si/Si.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Si/Si.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sn/Sn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sn/Sn-d.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sr/Sr-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sr/Sr-sp.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ta/Ta-sp.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ta/Ta-sp.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Tc/Tc-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Tc/Tc-sp.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Te/Te-d.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 34.0,
+            "hn": 40.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Te/Te-d.psp8"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ti/Ti-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ti/Ti-sp.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Tl/Tl-d.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 27.0,
+            "hn": 31.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Tl/Tl-d.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/V/V-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/V/V-sp.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/W/W-sp.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/W/W-sp.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Xe/Xe.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Xe/Xe.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Y/Y-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Y/Y-sp.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Zn/Zn-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Zn/Zn-sp.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Zr/Zr-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Zr/Zr-sp.psp8"
+        }
+      },
+      "stringent": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ag/Ag-sp.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ag/Ag-sp.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Al/Al.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Al/Al.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ar/Ar.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ar/Ar.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/As/As-spd-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/As/As-spd-high.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Au/Au-sp.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Au/Au-sp.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/B/B.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/B/B.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ba/Ba-sp-high.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ba/Ba-sp-high.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Be/Be-s-high.djrepo",
+          "meta": {
+            "hh": 59.0,
+            "hl": 49.0,
+            "hn": 53.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Be/Be-s-high.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Bi/Bi-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Bi/Bi-spd-high.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Br/Br-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Br/Br-d.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/C/C.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/C/C.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ca/Ca-sp.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ca/Ca-sp.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cd/Cd-sp-high.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 54.0,
+            "hn": 60.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cd/Cd-sp-high.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cl/Cl.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cl/Cl.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Co/Co-sp-high.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Co/Co-sp-high.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cr/Cr-sp-high.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 56.0,
+            "hn": 60.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cr/Cr-sp-high.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cs/Cs-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cs/Cs-sp.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Cu/Cu-sp-high.djrepo",
+          "meta": {
+            "hh": 60.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Cu/Cu-sp-high.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/F/F.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/F/F.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Fe/Fe-sp-high.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 55.0,
+            "hn": 59.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Fe/Fe-sp-high.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ga/Ga-spd-high.djrepo",
+          "meta": {
+            "hh": 61.0,
+            "hl": 53.0,
+            "hn": 57.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ga/Ga-spd-high.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ge/Ge-spd-high.djrepo",
+          "meta": {
+            "hh": 68.0,
+            "hl": 56.0,
+            "hn": 62.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ge/Ge-spd-high.psp8"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/H/H.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/H/H.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/He/He.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/He/He.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Hf/Hf-fsp.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 26.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Hf/Hf-fsp.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Hg/Hg-sp-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Hg/Hg-sp-high.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/I/I-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/I/I-d.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/In/In-spd-high.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/In/In-spd-high.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ir/Ir-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ir/Ir-sp.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/K/K-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/K/K-sp.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Kr/Kr.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Kr/Kr.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/La/La-sp.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/La/La-sp.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Li/Li-s-high.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 44.0,
+            "hn": 48.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Li/Li-s-high.psp8"
+        },
+        "Lu": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Lu/Lu-fsp.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 25.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Lu/Lu-fsp.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mg/Mg-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mg/Mg-sp.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mn/Mn-sp-high.djrepo",
+          "meta": {
+            "hh": 69.0,
+            "hl": 61.0,
+            "hn": 65.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mn/Mn-sp-high.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Mo/Mo-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Mo/Mo-sp.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/N/N.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/N/N.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Na/Na-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Na/Na-sp.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Nb/Nb-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Nb/Nb-sp.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ne/Ne-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ne/Ne-high.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ni/Ni-sp-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ni/Ni-sp-high.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/O/O-high.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/O/O-high.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Os/Os-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Os/Os-sp.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/P/P.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/P/P.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pb/Pb-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 36.0,
+            "hn": 44.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pb/Pb-spd-high.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pd/Pd-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pd/Pd-sp.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Po/Po-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Po/Po-spd-high.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Pt/Pt-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Pt/Pt-sp.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rb/Rb-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rb/Rb-sp.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Re/Re-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Re/Re-sp.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rh/Rh-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rh/Rh-sp.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Rn/Rn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Rn/Rn-d.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ru/Ru-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ru/Ru-sp.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/S/S.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/S/S.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sb/Sb-spd-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sb/Sb-spd-high.psp8"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sc/Sc-sp.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sc/Sc-sp.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Se/Se-spd-high.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Se/Se-spd-high.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Si/Si.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Si/Si.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sn/Sn-spd-high.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 45.0,
+            "hn": 51.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sn/Sn-spd-high.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Sr/Sr-sp-high.djrepo",
+          "meta": {
+            "hh": 36.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Sr/Sr-sp-high.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ta/Ta-fsp.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 27.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ta/Ta-fsp.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Tc/Tc-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Tc/Tc-sp.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Te/Te-spd-high.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Te/Te-spd-high.psp8"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Ti/Ti-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Ti/Ti-sp.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Tl/Tl-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Tl/Tl-spd-high.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/V/V-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/V/V-sp.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/W/W-sp.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/W/W-sp.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Xe/Xe.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Xe/Xe.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Y/Y-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Y/Y-sp.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Zn/Zn-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Zn/Zn-sp.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBE-SR-PDv0.4/Zr/Zr-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBE-SR-PDv0.4/Zr/Zr-sp.psp8"
+        }
+      }
+    },
+    "PBEsol": {
+      "standard": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ag/Ag-sp.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ag/Ag-sp.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Al/Al.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Al/Al.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ar/Ar.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ar/Ar.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/As/As-d.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/As/As-d.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Au/Au-sp.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Au/Au-sp.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/B/B.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/B/B.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ba/Ba-sp.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ba/Ba-sp.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Be/Be-s.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Be/Be-s.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Bi/Bi-d.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Bi/Bi-d.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Br/Br.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Br/Br.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/C/C.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/C/C.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ca/Ca-sp.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ca/Ca-sp.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cd/Cd-sp.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cd/Cd-sp.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cl/Cl.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cl/Cl.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Co/Co-sp.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Co/Co-sp.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cr/Cr-sp.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 43.0,
+            "hn": 47.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cr/Cr-sp.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cs/Cs-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cs/Cs-sp.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cu/Cu-sp.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cu/Cu-sp.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/F/F.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/F/F.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Fe/Fe-sp.djrepo",
+          "meta": {
+            "hh": 53.0,
+            "hl": 41.0,
+            "hn": 45.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Fe/Fe-sp.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ga/Ga-d.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ga/Ga-d.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ge/Ge-d.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ge/Ge-d.psp8"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/H/H.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/H/H.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/He/He.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/He/He.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Hf/Hf-sp.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Hf/Hf-sp.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Hg/Hg-sp.djrepo",
+          "meta": {
+            "hh": 39.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Hg/Hg-sp.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/I/I.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/I/I.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/In/In-d.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 35.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/In/In-d.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ir/Ir-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ir/Ir-sp.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/K/K-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/K/K-sp.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Kr/Kr.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Kr/Kr.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/La/La-sp.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/La/La-sp.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Li/Li-s.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Li/Li-s.psp8"
+        },
+        "Lu": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Lu/Lu-fsp.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 25.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Lu/Lu-fsp.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mg/Mg-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mg/Mg-sp.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mn/Mn-sp.djrepo",
+          "meta": {
+            "hh": 54.0,
+            "hl": 42.0,
+            "hn": 48.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mn/Mn-sp.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mo/Mo-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mo/Mo-sp.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/N/N.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/N/N.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Na/Na-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Na/Na-sp.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Nb/Nb-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Nb/Nb-sp.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ne/Ne.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ne/Ne.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ni/Ni-sp.djrepo",
+          "meta": {
+            "hh": 55.0,
+            "hl": 45.0,
+            "hn": 49.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ni/Ni-sp.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/O/O.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/O/O.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Os/Os-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Os/Os-sp.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/P/P.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/P/P.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pb/Pb-d.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 24.0,
+            "hn": 28.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pb/Pb-d.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pd/Pd-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pd/Pd-sp.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Po/Po-d.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Po/Po-d.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pt/Pt-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pt/Pt-sp.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rb/Rb-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rb/Rb-sp.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Re/Re-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Re/Re-sp.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rh/Rh-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rh/Rh-sp.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rn/Rn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rn/Rn-d.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ru/Ru-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ru/Ru-sp.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/S/S.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/S/S.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sb/Sb-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sb/Sb-d.psp8"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sc/Sc-sp.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sc/Sc-sp.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Se/Se-d.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 43.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Se/Se-d.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Si/Si.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Si/Si.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sn/Sn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sn/Sn-d.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sr/Sr-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sr/Sr-sp.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ta/Ta-sp.djrepo",
+          "meta": {
+            "hh": 35.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ta/Ta-sp.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Tc/Tc-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Tc/Tc-sp.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Te/Te-d.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 34.0,
+            "hn": 40.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Te/Te-d.psp8"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ti/Ti-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ti/Ti-sp.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Tl/Tl-d.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 27.0,
+            "hn": 31.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Tl/Tl-d.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/V/V-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/V/V-sp.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/W/W-sp.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/W/W-sp.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Xe/Xe.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Xe/Xe.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Y/Y-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Y/Y-sp.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Zn/Zn-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Zn/Zn-sp.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Zr/Zr-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Zr/Zr-sp.psp8"
+        }
+      },
+      "stringent": {
+        "Ag": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ag/Ag-sp.djrepo",
+          "meta": {
+            "hh": 47.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ag/Ag-sp.psp8"
+        },
+        "Al": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Al/Al.djrepo",
+          "meta": {
+            "hh": 26.0,
+            "hl": 16.0,
+            "hn": 20.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Al/Al.psp8"
+        },
+        "Ar": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ar/Ar.djrepo",
+          "meta": {
+            "hh": 37.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ar/Ar.psp8"
+        },
+        "As": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/As/As-spd-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/As/As-spd-high.psp8"
+        },
+        "Au": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Au/Au-sp.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 32.0,
+            "hn": 38.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Au/Au-sp.psp8"
+        },
+        "B": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/B/B.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/B/B.psp8"
+        },
+        "Ba": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ba/Ba-sp-high.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ba/Ba-sp-high.psp8"
+        },
+        "Be": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Be/Be-s-high.djrepo",
+          "meta": {
+            "hh": 59.0,
+            "hl": 49.0,
+            "hn": 53.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Be/Be-s-high.psp8"
+        },
+        "Bi": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Bi/Bi-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Bi/Bi-spd-high.psp8"
+        },
+        "Br": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Br/Br-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Br/Br-d.psp8"
+        },
+        "C": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/C/C.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/C/C.psp8"
+        },
+        "Ca": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ca/Ca-sp.djrepo",
+          "meta": {
+            "hh": 38.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ca/Ca-sp.psp8"
+        },
+        "Cd": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cd/Cd-sp-high.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 54.0,
+            "hn": 60.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cd/Cd-sp-high.psp8"
+        },
+        "Cl": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cl/Cl.djrepo",
+          "meta": {
+            "hh": 33.0,
+            "hl": 25.0,
+            "hn": 29.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cl/Cl.psp8"
+        },
+        "Co": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Co/Co-sp-high.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Co/Co-sp-high.psp8"
+        },
+        "Cr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cr/Cr-sp-high.djrepo",
+          "meta": {
+            "hh": 66.0,
+            "hl": 56.0,
+            "hn": 60.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cr/Cr-sp-high.psp8"
+        },
+        "Cs": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cs/Cs-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 25.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cs/Cs-sp.psp8"
+        },
+        "Cu": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Cu/Cu-sp-high.djrepo",
+          "meta": {
+            "hh": 60.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 19.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Cu/Cu-sp-high.psp8"
+        },
+        "F": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/F/F.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 7.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/F/F.psp8"
+        },
+        "Fe": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Fe/Fe-sp-high.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 55.0,
+            "hn": 59.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Fe/Fe-sp-high.psp8"
+        },
+        "Ga": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ga/Ga-spd-high.djrepo",
+          "meta": {
+            "hh": 61.0,
+            "hl": 53.0,
+            "hn": 57.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ga/Ga-spd-high.psp8"
+        },
+        "Ge": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ge/Ge-spd-high.djrepo",
+          "meta": {
+            "hh": 68.0,
+            "hl": 56.0,
+            "hn": 62.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ge/Ge-spd-high.psp8"
+        },
+        "H": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/H/H.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 1.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/H/H.psp8"
+        },
+        "He": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/He/He.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 39.0,
+            "hn": 45.0,
+            "nv": 2.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/He/He.psp8"
+        },
+        "Hf": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Hf/Hf-fsp.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 26.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Hf/Hf-fsp.psp8"
+        },
+        "Hg": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Hg/Hg-sp-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Hg/Hg-sp-high.psp8"
+        },
+        "I": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/I/I-d.djrepo",
+          "meta": {
+            "hh": 44.0,
+            "hl": 34.0,
+            "hn": 38.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/I/I-d.psp8"
+        },
+        "In": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/In/In-spd-high.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/In/In-spd-high.psp8"
+        },
+        "Ir": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ir/Ir-sp.djrepo",
+          "meta": {
+            "hh": 40.0,
+            "hl": 30.0,
+            "hn": 34.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ir/Ir-sp.psp8"
+        },
+        "K": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/K/K-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/K/K-sp.psp8"
+        },
+        "Kr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Kr/Kr.djrepo",
+          "meta": {
+            "hh": 34.0,
+            "hl": 22.0,
+            "hn": 26.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Kr/Kr.psp8"
+        },
+        "La": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/La/La-sp.djrepo",
+          "meta": {
+            "hh": 65.0,
+            "hl": 50.0,
+            "hn": 55.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/La/La-sp.psp8"
+        },
+        "Li": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Li/Li-s-high.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 44.0,
+            "hn": 48.0,
+            "nv": 3.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Li/Li-s-high.psp8"
+        },
+        "Lu": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Lu/Lu-fsp.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 25.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Lu/Lu-fsp.psp8"
+        },
+        "Mg": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mg/Mg-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mg/Mg-sp.psp8"
+        },
+        "Mn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mn/Mn-sp-high.djrepo",
+          "meta": {
+            "hh": 69.0,
+            "hl": 61.0,
+            "hn": 65.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mn/Mn-sp-high.psp8"
+        },
+        "Mo": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Mo/Mo-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 36.0,
+            "hn": 40.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Mo/Mo-sp.psp8"
+        },
+        "N": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/N/N.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 36.0,
+            "hn": 42.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/N/N.psp8"
+        },
+        "Na": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Na/Na-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Na/Na-sp.psp8"
+        },
+        "Nb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Nb/Nb-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Nb/Nb-sp.psp8"
+        },
+        "Ne": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ne/Ne-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ne/Ne-high.psp8"
+        },
+        "Ni": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ni/Ni-sp-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ni/Ni-sp-high.psp8"
+        },
+        "O": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/O/O-high.djrepo",
+          "meta": {
+            "hh": 52.0,
+            "hl": 42.0,
+            "hn": 46.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/O/O-high.psp8"
+        },
+        "Os": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Os/Os-sp.djrepo",
+          "meta": {
+            "hh": 43.0,
+            "hl": 33.0,
+            "hn": 37.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Os/Os-sp.psp8"
+        },
+        "P": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/P/P.djrepo",
+          "meta": {
+            "hh": 28.0,
+            "hl": 18.0,
+            "hn": 22.0,
+            "nv": 5.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/P/P.psp8"
+        },
+        "Pb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pb/Pb-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 36.0,
+            "hn": 44.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pb/Pb-spd-high.psp8"
+        },
+        "Pd": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pd/Pd-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 37.0,
+            "hn": 41.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pd/Pd-sp.psp8"
+        },
+        "Po": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Po/Po-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Po/Po-spd-high.psp8"
+        },
+        "Pt": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Pt/Pt-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Pt/Pt-sp.psp8"
+        },
+        "Rb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rb/Rb-sp.djrepo",
+          "meta": {
+            "hh": 29.0,
+            "hl": 19.0,
+            "hn": 23.0,
+            "nv": 9.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rb/Rb-sp.psp8"
+        },
+        "Re": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Re/Re-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Re/Re-sp.psp8"
+        },
+        "Rh": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rh/Rh-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 40.0,
+            "hn": 44.0,
+            "nv": 17.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rh/Rh-sp.psp8"
+        },
+        "Rn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Rn/Rn-d.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 32.0,
+            "hn": 36.0,
+            "nv": 18.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Rn/Rn-d.psp8"
+        },
+        "Ru": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ru/Ru-sp.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 16.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ru/Ru-sp.psp8"
+        },
+        "S": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/S/S.djrepo",
+          "meta": {
+            "hh": 32.0,
+            "hl": 20.0,
+            "hn": 26.0,
+            "nv": 6.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/S/S.psp8"
+        },
+        "Sb": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sb/Sb-spd-high.djrepo",
+          "meta": {
+            "hh": 58.0,
+            "hl": 46.0,
+            "hn": 50.0,
+            "nv": 23.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sb/Sb-spd-high.psp8"
+        },
+        "Sc": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sc/Sc-sp.djrepo",
+          "meta": {
+            "hh": 45.0,
+            "hl": 35.0,
+            "hn": 39.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sc/Sc-sp.psp8"
+        },
+        "Se": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Se/Se-spd-high.djrepo",
+          "meta": {
+            "hh": 56.0,
+            "hl": 48.0,
+            "hn": 52.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Se/Se-spd-high.psp8"
+        },
+        "Si": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Si/Si.djrepo",
+          "meta": {
+            "hh": 24.0,
+            "hl": 14.0,
+            "hn": 18.0,
+            "nv": 4.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Si/Si.psp8"
+        },
+        "Sn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sn/Sn-spd-high.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 45.0,
+            "hn": 51.0,
+            "nv": 22.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sn/Sn-spd-high.psp8"
+        },
+        "Sr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Sr/Sr-sp-high.djrepo",
+          "meta": {
+            "hh": 36.0,
+            "hl": 28.0,
+            "hn": 32.0,
+            "nv": 10.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Sr/Sr-sp-high.psp8"
+        },
+        "Ta": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ta/Ta-fsp.djrepo",
+          "meta": {
+            "hh": 72.0,
+            "hl": 62.0,
+            "hn": 66.0,
+            "nv": 27.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ta/Ta-fsp.psp8"
+        },
+        "Tc": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Tc/Tc-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 15.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Tc/Tc-sp.psp8"
+        },
+        "Te": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Te/Te-spd-high.djrepo",
+          "meta": {
+            "hh": 57.0,
+            "hl": 47.0,
+            "hn": 51.0,
+            "nv": 24.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Te/Te-spd-high.psp8"
+        },
+        "Ti": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Ti/Ti-sp.djrepo",
+          "meta": {
+            "hh": 46.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Ti/Ti-sp.psp8"
+        },
+        "Tl": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Tl/Tl-spd-high.djrepo",
+          "meta": {
+            "hh": 50.0,
+            "hl": 38.0,
+            "hn": 44.0,
+            "nv": 21.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Tl/Tl-spd-high.psp8"
+        },
+        "V": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/V/V-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 13.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/V/V-sp.psp8"
+        },
+        "W": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/W/W-sp.djrepo",
+          "meta": {
+            "hh": 41.0,
+            "hl": 31.0,
+            "hn": 37.0,
+            "nv": 14.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/W/W-sp.psp8"
+        },
+        "Xe": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Xe/Xe.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 28.0,
+            "hn": 34.0,
+            "nv": 8.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Xe/Xe.psp8"
+        },
+        "Y": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Y/Y-sp.djrepo",
+          "meta": {
+            "hh": 42.0,
+            "hl": 30.0,
+            "hn": 36.0,
+            "nv": 11.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Y/Y-sp.psp8"
+        },
+        "Zn": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Zn/Zn-sp.djrepo",
+          "meta": {
+            "hh": 48.0,
+            "hl": 38.0,
+            "hn": 42.0,
+            "nv": 20.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Zn/Zn-sp.psp8"
+        },
+        "Zr": {
+          "djrepo": "ONCVPSP-PBEsol-SR-PDv0.4/Zr/Zr-sp.djrepo",
+          "meta": {
+            "hh": 49.0,
+            "hl": 29.0,
+            "hn": 33.0,
+            "nv": 12.0
+          },
+          "psp8": "ONCVPSP-PBEsol-SR-PDv0.4/Zr/Zr-sp.psp8"
+        }
+      }
+    }
+  }
+}
