@@ -1,4 +1,4 @@
-name: Setup pseudodojo env
+name: PseudoDojo Tests
 run-name: ${{ github.actor }} is setting up pseudodojo env
 
 on: [push, pull_request]
