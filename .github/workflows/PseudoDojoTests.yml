@@ -1,0 +1,106 @@
+name: PseudoDojo Tests
+run-name: ${{ github.actor }} is setting up pseudodojo env
+
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+        with: 
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Cache Poetry virtual environment
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cache/pypoetry/virtualenvs
+          key: ${{ runner.os }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-poetry-
+
+      - name: Cache LibXC
+        uses: actions/cache@v3
+        with:
+          path: |
+            /home/runner/libxc
+          key: libxc-4.3.4-${{ runner.os }}-${{ hashFiles('**/libxc-4.3.4.tar.gz') }}
+          restore-keys: |
+            libxc-4.3.4-${{ runner.os }}-
+
+      - name: Cache ONCVPSP
+        uses: actions/cache@v3
+        with:
+          path: |
+            /home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1
+          key: oncvpsp-4.0.1-${{ runner.os }}-${{ hashFiles('**/oncvpsp-4.0.1.tar.gz') }}
+          restore-keys: |
+            oncvpsp-4.0.1-${{ runner.os }}-
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python -
+
+      - name: Install python dependencies with Poetry
+        run: |
+          poetry install
+      
+      - name: Install dependencies for LibXC/ONCVPSP/ABINIT
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential autoconf libtool pkg-config liblapack-dev libblas-dev libfftw3-dev libnetcdf-dev libnetcdff-dev
+  
+      - name: Download and Compile LibXC
+        run: |
+          if [ ! -d "$HOME/libxc" ]; then
+            wget http://www.tddft.org/programs/libxc/down.php?file=4.3.4/libxc-4.3.4.tar.gz -O libxc-4.3.4.tar.gz
+            tar -xvf libxc-4.3.4.tar.gz
+            cd libxc-4.3.4
+            ./configure --prefix=$HOME/libxc
+            make
+            make install
+          fi
+          echo "Listing contents of /home/runner/libxc:"
+          ls /home/runner/libxc
+
+      - name: Download and Compile ONCVPSP
+        run: |
+          if [ ! -d "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1" ]; then
+            wget http://www.mat-simresearch.com/oncvpsp-4.0.1.tar.gz -O oncvpsp-4.0.1.tar.gz
+            tar -xvf oncvpsp-4.0.1.tar.gz
+            cd oncvpsp-4.0.1
+            
+            # Modify make.inc using sed for GH libblas
+            sed -i 's|^LIBS = -L/usr/local/lapack/lib -llapack -lrefblas|LIBS = -L/usr/lib/x86_64-linux-gnu -llapack -lblas|' make.inc
+            
+            # Update make to point to GH libxc folder
+            sed -i 's|LIBS += -L/usr/local/libxc/lib -lxcf90 -lxc|LIBS += -L/home/runner/libxc/lib -lxcf90 -lxc|' make.inc
+            sed -i 's|FFLAGS += -I/usr/local/libxc/include|FFLAGS += -I/home/runner/libxc/include|' make.inc
+            
+            make
+          fi
+
+          echo "/home/runner/work/pseudodojo/pseudodojo/oncvpsp-4.0.1/src" >> $GITHUB_PATH
+          echo $GITHUB_PATH
+
+      # - name: Download and compile ABINIT
+      #   run: |
+      #     git clone https://github.com/abinit/abinit.git
+      #     cd abinit
+      #     ./autogen.sh
+      #     ./configure --with-libxc=/home/runner/libxc/lib/
+      #     echo "Checking if this worked"
+      #     cat config.log
+      #     make
+      #     ls
+      #     ls build
+
+      - name: Execute the python tests
+        run: |
+          poetry run pytest
