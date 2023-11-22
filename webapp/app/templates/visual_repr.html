@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!--[if IE 7]>
+<html class="ie ie7" lang="en-US">
+<![endif]-->
+<!--[if IE 8]>
+<html class="ie ie8" lang="en-US">
+<![endif]-->
+<!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html lang="en-US">
+<!--<![endif]-->
+<head>
+<title>{{ site_title }} Plots</title>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=1360">
+<meta name="robots" content="index, follow" />
+
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+
+<link rel="icon" type="image/png" sizes="32x32" href="{{ url_for('static', filename='img/favicon-32x32.png') }}">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ url_for('static', filename='img/favicon-96x96.png') }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ url_for('static', filename='img/favicon-16x16.png') }}">
+
+<!-- <script>
+     window.MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        },
+        startup: {
+            pageReady: function() {
+                setTimeout(function() {
+                    MathJax.typesetPromise().then(() => {
+                        // Actions after MathJax processing
+                    });
+                }, 5000); // Adjust the delay as needed
+            }
+        }
+    };
+</script>
+<script id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script> -->
+</head>
+
+<body>
+    <div id="html_respage_body">
+        <h1>PseudoDojo Plots for {{ site_title}} </h1>
+        <h2>ONCVPSP Input File</h2>
+
+        <div id = "oncv_in_code">
+            {{ infile | replace('\n', '<br>') | safe }}
+        </div>
+        <h2>AE and PS radial wavefunctions</h2>
+
+        {{ plots['radial_wfs'] | safe }}
+
+        <h2>Arctan of the logarithmic derivatives</h2>
+
+        <p>From the oncvpsp documentation: The plots show ϕ(E)=arctan(R∗dψ(r)/dr|R) for some R greater than the core radius, where ψ is the solution of the non-local radial equation regular at the origin (i.e., the outward-integrated solution). For a well-designed pseudopotential, ϕ(E) will closely track that of the all-electron potential over a wide range of energies from well-below to well-above the valence semi-core states of interest. The steps of π indicate localized pseudo wave functions. Spurious steps of π indicate "ghost" states, which are localized states than on investigation turn out to have more nodes than appropriate for their energies. For GW pseudos, no significant deviation should be present up to 8 Hartree.</p>
+
+        {{ plots['atan_logder'] | safe }}
+
+        <h2>Convergence in G-space estimated by ONCVPSP</h2>
+
+        <p>These results are obtained in the atomic configuration and should give a reasonable estimate of the convergence behaviour wrt to ecut in crystalline systems.</p>
+
+        {{ plots["ecut_convergence"] | safe}}
+
+        <h2>Projectors</h2>
+        
+        <p>In general the second projector in any channel should have one node more that the first one. Pushing the energy of the second projector too high may cause an additional node. This will most likely introduce ghosts.</p>
+
+        {{ plots['projectors'] | safe }}
+
+        <h2>Charge Densities</h2>
+
+        <p>Much better convergence properties can been achieved with icmod 3. In this case, fcfact mainly determines the height of the model core charge while rcfact mainly determines the width of the model core charge.</p>
+
+        {{ plots['ch_densities'] | safe }}
+        
+        <h2>Local potentials</h2>
+
+        {{ plots['potentials'] | safe }}
+
+        <h2>Ghosts Tests</h2>
+
+        <p>TODO</p>
+
+        <h2>Convergence Tests</h2>
+
+        <p>TODO</p>
+
+    </div>
+</body>
