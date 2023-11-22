@@ -1,5 +1,7 @@
 # Pseudo Dojo
 
+WORK IN PROGRESS
+
 An open source python package to generate and validate pseudopotentials.
 
 ## About
